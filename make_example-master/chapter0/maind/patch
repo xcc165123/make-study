@@ -1,0 +1,39 @@
+diff --git a/main1.c b/main0.c
+index 3131b83..4179b0d 100644
+--- a/main1.c
++++ b/main0.c
+@@ -9,33 +9,8 @@ int main(void)
+ 
+ {
+ 
+-    int rst;
+-
+-
+     printf("Hello Cacu!\n");
+ 
+-    
+-
+-    rst = add(3,2);
+-
+-    printf("3 + 2 = %d\n",rst);
+-
+-
+-    rst = minus(3,2);
+-
+-    printf("3 - 2 = %d\n",rst);
+-
+-
+-    rst = multi(3,2);
+-
+-    printf("3 * 2 = %d\n",rst);
+-
+-
+-    rst = div(6,2);
+-
+-    printf("6 / 2 = %d\n",rst);
+-
+-
+     return 0;
+ 
+ }
+\ No newline at end of file
